@@ -60,3 +60,7 @@ set(MAPPING ON CACHE BOOL "Application to benchmark seL4 mapping a series of pag
 
 # default is ON
 set(SYNC ON CACHE BOOL "Application to benchmark seL4 sync")
+
+
+# default is ON
+set(SMMU ON CACHE BOOL "Application to benchmark seL4 smmu")

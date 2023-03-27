@@ -71,6 +71,7 @@ add_subdirectory(../scheduler scheduler)
 add_subdirectory(../signal signal)
 add_subdirectory(../smp smp)
 add_subdirectory(../sync sync)
+add_subdirectory(../smmu smmu)
 add_subdirectory(../vcpu vcpu)
 add_subdirectory(../../libsel4benchsupport libsel4benchsupport)
 
@@ -101,6 +102,7 @@ if(Sel4Bench)
         sel4benchirq_Config
         sel4benchirquser_Config
         sel4benchpagemapping_Config
+        sel4benchsmmu_Config
         sel4benchscheduler_Config
         sel4benchsignal_Config
         smp_Config
